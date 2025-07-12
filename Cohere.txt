@@ -1,0 +1,17 @@
+Cohere 
+API_URL = https://api.cohere.ai/v1/chat
+API_KEY = YTpMuTBwrkBJWq38dFs0euIu9HYSG1QHdfOWCkBO
+
+Together.ai
+API_URL = https://api.together.xyz/v1/chat/completions
+API_KEY = tgp_v1_jXlp6Erpm57SbiG-LsdA3LasxtYkeMVJfNOIn16L0Qo
+
+OpenRouter.ai
+API_URL = https://openrouter.ai/api/v1/chat/completions
+API_KEY = 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
+
+
+DeepSeek
+
+API_URL = G
+API_KEY = H

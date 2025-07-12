@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UD AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="header-left">
+                <div class="logo-area">
+                    <img src="UD AI STUDIO.png" alt="UD AI Assistant Logo" class="chat-logo">
+                    <div class="app-greeting">
+                        <p>Hello, I am UD Ai Assistant.</p>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="header-right">
+                <button id="newChatButton" class="new-chat-button" title="Start New Chat">
+                    <i class="fas fa-comment-dots"></i> New Chat
+                </button>
+                <div class="settings-group">
+                    <button id="themeToggleButton" class="icon-button theme-toggle-button" title="Toggle Dark/Light Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="voice-selection">
+                        <label for="assistantVoiceSelect" class="sr-only">Assistant Voice</label>
+                        <select id="assistantVoiceSelect" class="settings-select" title="Select Assistant Voice">
+                            <option value="default">Default Voice</option>
+                            <option value="male">Male Voice</option>
+                            <option value="female">Female Voice</option>
+                            </select>
+                    </div>
+                    <select id="languageSelect" class="settings-select">
+                        <option value="English">English</option>
+                        <option value="Sinhala">සිංහල</option>
+                        <option value="Tamil">தமிழ்</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <main class="chat-box" id="chatBox">
+            </main>
+
+        <div class="chat-controls-area">
+            <label for="documentUpload" class="control-button file-upload-button" title="Upload Document">
+                <i class="fas fa-paperclip"></i> Upload Doc
+                <input type="file" id="documentUpload" multiple style="display: none;">
+            </label>
+            <button id="voiceModeButton" class="control-button voice-button" title="Voice Mode (Speak & Get Voice Response)">
+                <i class="fas fa-headset"></i> Voice Mode
+            </button>
+            <button id="transcribeVoiceButton" class="control-button transcribe-button" title="Transcribe Voice (Type to Chatbox)">
+                <i class="fas fa-microphone"></i> Transcribe
+            </button>
+        </div>
+
+        <footer class="chat-input-area">
+            <div id="uploadedFilesPreview" class="uploaded-files-display">
+                </div>
+            <div class="input-row">
+                <textarea id="userInput" placeholder="Type your message..." rows="1"></textarea>
+                <button id="sendButton" class="send-button" title="Send Message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            <div id="uploadStatus" class="status-message upload-status"></div>
+            <div id="voiceStatus" class="status-message voice-status"></div>
+            <div id="messageBox" class="message-box"></div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> 
+    <script src="script.js"></script>
+</body>
+</html>

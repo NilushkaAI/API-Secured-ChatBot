@@ -1,0 +1,105 @@
+Gemini API Key- AIzaSyDTTqivhDq5t3WU_KMHdeXghIZvexqnoi0
+Deepseek API Key - sk-940bc4b9c31f43059511b77804194f1a
+
+sk-57c064d719e94a16978e9859757f843a
+sk-f82f46f087834eb39cd2c401b9310057
+
+
+https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=GEMINI_API_KEY
+
+
+Act as a chatbot developer and please support to generate html, css and js files for creating chatbot by considering followings. Use this API Key - AIzaSyDTTqivhDq5t3WU_KMHdeXghIZvexqnoxx
+Here i'm using gemini API key. 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=GEMINI_API_KEY'
+
+
+light and dark mode option
+Send button
+typing area
+voice command button
+document upload button
+language select option for Sinhala, English, Tamil
+name and logo
+
+you may refer currently available chatbots like chatgpt, gemini, deepseek and generate accordingly.
+
+
+
+
+
+Update the code by referring below points.
+
+1. User interface should be really smart and colorfully and professional.
+2. Use 'voice mode' option as well. once user speak then chatbot wants to answer to that question with voice command and same thing wants to display based on the language selection. for an example, if user select Sinhala, then chatbot also wants to speak in Sinhala and display the same thing in Sinhala.
+3. 'New chat' open option should be there. and previous chat should be display to refer it again.
+4. Instead of 'AI Chat Assistant' on the top there should be space to add logo image. and below the logo you want to write
+this sentence in "Hello, I am UD Ai Assistant.
+ආයුබෝවන් ! How can I help you today?" 
+5. Once user give the file location without giving the exact file, chatbot should capable of search that particular folder and any files in any format inside that folder and give the feedback. need separate option to this. 
+6. for upload documents option, chatbot should allow any file formats.
+
+
+Update the code by referring below points.
+
+
+1. Once start the voice command, voice command should not be ended until clicking the voice command button.
+2. Multiple files upload option should be there.
+3. Here i need two voice options. one is for voice mode,other option is for detect and type in the chatbox.
+4. Chat history should be display based on the previously opened chats.
+5. I need background image which is related to chatbot
+
+
+Both voice mode and transcribe buttons are work as a same.
+here 'voice mode' button should work as this. once user speak then chatbot wants to answer to that question with voice command and same thing wants to display based on the language selection. for an example, if user select Sinhala, then chatbot also wants to speak in Sinhala and display the same thing in Sinhala.
+
+
+Update the code by referring below points.
+
+
+1. Chatbot assistant voice selection option should be available. whether the female or male.
+2. Voice Mode and Transcribe and upload document should be display below to the chatbox. otherwise chatting space is bit smaller.
+3. History data should be cleared once user click the new chat.
+4. In the voice mode, whatever assistant given feedback should be both type feedback and voice feedback.
+
+
+
+Update the code by referring below points.
+
+1. chat feedback window should be visible to user. here it is too small. 
+2. you can reduce the size of  upload voice mod transcribe button sizes. 
+3. when it comes to Sinhala language, unable to find assistance voice modes and no voice feedback from Sinhala voice.
+3. All chat History should be cleared once user click the new chat.
+
+
+
+Update the code by referring below points.
+
+1. "Hello, I am UD Ai Assistant.
+
+ආයුබෝවන් ! How can I help you today?
+"
+
+move this part to right parallelly with UD image 
+
+2. Instead of dark mode button give single icon to change the modes.
+3. Instead of New Chat icon, represent it in different icon.
+4. For voice, dark mode and language selection, move it to right 
+
+
+
+Update the code by referring below points.
+
+1. Limit english voice modes to male and female.
+2. move dark mode button to top right corner.
+3. Assistance for uploaded documents is not working correctly. please check and correct it.
+
+
+
+For Transcribe button, once user click and start then you want to capture every words that user saying and once user click second time then you want to stop the collecting words. Start and ending should be show to users by changing the icon. 
+
+
+when files are uploaded then you want to show the file icons to users. and when it send to the chat it also want to send as an icon. please update the code accordingly
+
+
+
+
+
