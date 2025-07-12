@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Gemini API Configuration ---
     // The API key is now securely handled on the backend.
-    const API_URL = `/api/generateContent`; // Updated to a relative URL for the backend proxy
+    const API_URL = "https://wondrous-mandazi-7cabe8.netlify.app/api/generateContent"; // Updated to a relative URL for the backend proxy
 
     let currentChatHistory = [];
     let voiceModeRecognition;
